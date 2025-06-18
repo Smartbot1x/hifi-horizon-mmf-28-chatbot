@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.payment_Text {
+  text-align: start;
+}
+.payment_Text span {
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-icons {
+  width: 150px;
+}
+footer {
+  width: 100%;
+  margin-top: 25px;
+  position: static;
+  bottom: 0;
+  left: auto;
+}
