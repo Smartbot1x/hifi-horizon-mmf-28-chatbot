@@ -27,7 +27,7 @@ const style = {
   },
 };
 
-export default function Header() {
+export default function HeaderComponent() {
   return (
     <header style={style.header}>
       <nav style={style.nav}>
