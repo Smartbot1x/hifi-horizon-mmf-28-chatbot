@@ -2,7 +2,7 @@ import "../style/Chatbot.css";
 import ChatBot from "react-simple-chatbot";
 import { GoDotFill } from "react-icons/go";
 
-function Header() {
+function HeaderTitle() {
   return (
     <div style={{ padding: "10px 16px" }}>
       <div style={{ fontSize: 14, color: "#e0e0e0" }}>Chatting with</div>
@@ -26,7 +26,7 @@ export default function Chatbot() {
   return (
     <>
       <ChatBot
-        headerTitle={<Header />}
+        headerTitle={<HeaderTitle />}
         steps={[
           {
             id: "hello-world",
